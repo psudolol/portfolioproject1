@@ -3,9 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>FastFlow Plumbing</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">FastFlow Plumbing</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#contact" class="nav-cta">Get a Quote</a>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Your Local Plumbing Experts</h1>
+            <p>Fast, reliable and affordable plumbing services across the West Midlands. Available 24/7 for emergencies.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn-primary">Get a Free Quote</a>
+                <a href="#services" class="btn-secondary">Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>What We Do</h2>
+        <p class="section-subtitle">Professional plumbing services for homes and businesses</p>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🔧</div>
+                <h3>Emergency Repairs</h3>
+                <p>Burst pipes, leaks and blockages fixed fast. We're on call 24/7 so you're never left waiting.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🚿</div>
+                <h3>Bathroom Installation</h3>
+                <p>Full bathroom fitting and refurbishment. From single fixtures to complete redesigns.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🌡️</div>
+                <h3>Boiler Services</h3>
+                <p>Boiler installation, servicing and repairs. Gas Safe registered engineers.</p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🏠</div>
+                <h3>General Plumbing</h3>
+                <p>Taps, toilets, radiators and more. No job too small for our experienced team.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About FastFlow</h2>
+                <p>With over 15 years serving the West Midlands, FastFlow Plumbing has built a reputation for honest pricing, quality workmanship and showing up on time.</p>
+                <p>We're a family-run business and treat every home like our own. All our engineers are fully qualified and Gas Safe registered.</p>
+                <div class="stats">
+                    <div class="stat">
+                        <h3>500+</h3>
+                        <p>Happy Customers</p>
+                    </div>
+                    <div class="stat">
+                        <h3>15+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat">
+                        <h3>24/7</h3>
+                        <p>Emergency Cover</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get in Touch</h2>
+        <p class="section-subtitle">Fill in the form and we'll get back to you within the hour</p>
+        <div class="contact-container">
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <input type="email" placeholder="Email Address" required>
+                <select>
+                    <option value="" disabled selected>Select a Service</option>
+                    <option>Emergency Repair</option>
+                    <option>Bathroom Installation</option>
+                    <option>Boiler Service</option>
+                    <option>General Plumbing</option>
+                </select>
+                <textarea placeholder="Tell us about your job..." rows="5"></textarea>
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <div class="info-item">
+                    <span>📞</span>
+                    <p>0121 456 7890</p>
+                </div>
+                <div class="info-item">
+                    <span>📧</span>
+                    <p>hello@fastflowplumbing.co.uk</p>
+                </div>
+                <div class="info-item">
+                    <span>📍</span>
+                    <p>Serving the West Midlands</p>
+                </div>
+                <div class="info-item">
+                    <span>🕐</span>
+                    <p>Mon–Sat: 7am–8pm<br>Emergency: 24/7</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 FastFlow Plumbing. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
